@@ -20,6 +20,6 @@ export default defineConfig({
       exclude: ['node_modules/', 'dist/'],
     },
   },
-  base: '/react-vite-cicd-test/',   
+  base: './',   
   plugins: [react()],
 })
